@@ -4,7 +4,7 @@ Data Converter for SIGLENT SDG1032X Arbitrary Function Generator
 Basic example is a simple sine wave;
 - Files can have up to 16384 data values;
 - Format is header than a list of voltaqge point in vertical list without the time coordinate;
-- Volts can be fix or sci notation and always after comma without time.
+- Volts can be fix or sci notation.
 
 Header must be in form:
 
