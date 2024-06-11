@@ -2,14 +2,13 @@
 Data Converter for SIGLENT SDG1032X Arbitrary Function Generator
 
 Basic example is a simple sine wave;
-- All files must have 8192 points;
-- All value are in volt voltage beyond +-0.312 Volt seems clipped;
+- Files can have up to 16384 data values;
 - Format is header than a list of voltaqge point in vertical list without the time coordinate;
 - Volts can be fix or sci notation and always after comma without time.
 
 Header must be in form:
 
-![image](https://github.com/LuizFernandoOliveira/SIGLENT-data-converter/assets/50978651/5680c847-2253-4ffa-a846-5dec4a9c9b1d)
+![image](https://github.com/LuizFernandoOliveira/SIGLENT-data-converter/assets/50978651/57d686a0-f9eb-4419-9f07-5b33065706e8)
 
 At least one empty line at the end of file.
 
@@ -27,8 +26,7 @@ Run the "main.m" file in MATLAB R2023b. After executing the code, MATLAB will ge
 
 Signal generated in MATLAB:
 
-![fig](https://github.com/LuizFernandoOliveira/RIGOL-data-converter/assets/50978651/959ca08a-58f2-485b-909e-5d4c966078e1)
-
+![fig](https://github.com/LuizFernandoOliveira/SIGLENT-data-converter/assets/50978651/1c87e61a-50e2-4154-81d6-3643ac74de4a)
 
 Signal reproduced on the RIGOL Oscilloscope:
 
